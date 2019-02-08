@@ -12,6 +12,8 @@
 		9CB91C8A220DEAE200DD4933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB91C88220DEAE200DD4933 /* Main.storyboard */; };
 		9CB91C8C220DEAE200DD4933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CB91C8B220DEAE200DD4933 /* Assets.xcassets */; };
 		9CB91C8F220DEAE200DD4933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CB91C8D220DEAE200DD4933 /* LaunchScreen.storyboard */; };
+		9CB91C97220DEB6000DD4933 /* GradientNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB91C96220DEB6000DD4933 /* GradientNavBar.swift */; };
+		9CB91C99220DECD200DD4933 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB91C98220DECD200DD4933 /* example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9CB91C8B220DEAE200DD4933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CB91C8E220DEAE200DD4933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CB91C90220DEAE200DD4933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CB91C96220DEB6000DD4933 /* GradientNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientNavBar.swift; sourceTree = "<group>"; };
+		9CB91C98220DECD200DD4933 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		9CB91C83220DEAE200DD4933 /* Gradient-UINavBar */ = {
 			isa = PBXGroup;
 			children = (
+				9CB91C98220DECD200DD4933 /* example.png */,
+				9CB91C96220DEB6000DD4933 /* GradientNavBar.swift */,
 				9CB91C84220DEAE200DD4933 /* AppDelegate.swift */,
 				9CB91C86220DEAE200DD4933 /* ViewController.swift */,
 				9CB91C88220DEAE200DD4933 /* Main.storyboard */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB91C8F220DEAE200DD4933 /* LaunchScreen.storyboard in Resources */,
+				9CB91C99220DECD200DD4933 /* example.png in Resources */,
 				9CB91C8C220DEAE200DD4933 /* Assets.xcassets in Resources */,
 				9CB91C8A220DEAE200DD4933 /* Main.storyboard in Resources */,
 			);
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CB91C87220DEAE200DD4933 /* ViewController.swift in Sources */,
+				9CB91C97220DEB6000DD4933 /* GradientNavBar.swift in Sources */,
 				9CB91C85220DEAE200DD4933 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
