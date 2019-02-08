@@ -11,5 +11,6 @@ Just add this class to your project. In your storyboard, you will need to select
 
 After that, just go to the attributes inspector and modify the desired colors.
 
+Ps: If you want to use it as UITabBarController, just change "class GradientNavBar: UINavigationBar" to "class GradientNavBar: UITabBarController"
 
 ![Alt text for your video](https://github.com/oliveiraCode/Gradient-UINavBar/blob/master/Gradient-UINavBar/example.png)
